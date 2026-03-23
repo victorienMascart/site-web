@@ -1,0 +1,369 @@
+/* Contact Page Styles */
+.contact {
+  width: 100%;
+}
+
+.contact .page-header {
+  background: linear-gradient(135deg, #6B4C3C 0%, #8B6F47 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact .page-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+}
+
+.contact .page-header p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+/* Manager Section */
+.manager-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.manager-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #3E2723;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.manager-card {
+  background: linear-gradient(135deg, #f0e5d8 0%, #e8d5c4 100%);
+  padding: 3rem;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 3px solid #6B4C3C;
+}
+
+.manager-avatar {
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.manager-card h3 {
+  color: #3E2723;
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.manager-card .age {
+  color: #8B6F47;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.qualifications {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.qualifications h4 {
+  color: #3E2723;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.qualifications ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.qualifications li {
+  color: #888;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.qualifications li:before {
+  content: "✓ ";
+  color: #6B4C3C;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.manager-card .bio {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  text-align: justify;
+}
+
+.manager-card .mission {
+  background: white;
+  padding: 1rem;
+  border-left: 4px solid #6B4C3C;
+  color: #3E2723;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+/* Contact Info Section */
+.contact-info-section {
+  background-color: #f9f7f4;
+  padding: 4rem 2rem;
+}
+
+.contact-info-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #3E2723;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.info-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #6B4C3C;
+  text-align: center;
+}
+
+.info-card h3 {
+  color: #3E2723;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.info-card p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+.info-card a {
+  color: #6B4C3C;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.info-card a:hover {
+  color: #8B6F47;
+}
+
+.info-note {
+  color: #999;
+  font-size: 0.85rem;
+  margin-top: 0.5rem !important;
+}
+
+/* Location Section */
+.location-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.location-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #3E2723;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.location-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid #6B4C3C;
+}
+
+.location-info h3 {
+  color: #3E2723;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.location-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.location-info li {
+  color: #666;
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.location-info .advantage {
+  background: #f9f7f4;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.location-icon {
+  font-size: 6rem;
+  text-align: center;
+}
+
+/* Advantage Section */
+.advantage-section {
+  background-color: #f9f7f4;
+  padding: 4rem 2rem;
+}
+
+.advantage-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #3E2723;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.advantage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.advantage-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s;
+  border-top: 4px solid #6B4C3C;
+}
+
+.advantage-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.advantage-icon {
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.advantage-card h3 {
+  color: #3E2723;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.advantage-card p {
+  color: #888;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #6B4C3C 0%, #8B6F47 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+.visit-button {
+  background-color: white;
+  color: #6B4C3C;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.visit-button:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.visit-button:active {
+  transform: translateY(-1px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .manager-card {
+    padding: 2rem;
+  }
+
+  .location-content {
+    grid-template-columns: 1fr;
+  }
+
+  .location-icon {
+    font-size: 4rem;
+  }
+
+  .advantage-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-section h2 {
+    font-size: 1.5rem;
+  }
+}

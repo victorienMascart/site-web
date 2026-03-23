@@ -1,0 +1,291 @@
+/* À Propos Page Styles */
+.a-propos {
+  width: 100%;
+}
+
+.a-propos .page-header {
+  background: linear-gradient(135deg, #d4a574 0%, #c89968 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.a-propos .page-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+}
+
+.a-propos .page-header p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+/* Story Section */
+.story-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.story-content h2 {
+  font-size: 2.2rem;
+  color: #4a4a4a;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.story-content p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.story-image {
+  font-size: 8rem;
+  text-align: center;
+  background: linear-gradient(135deg, #f0e5d8 0%, #e8d5c4 100%);
+  padding: 3rem;
+  border-radius: 15px;
+}
+
+/* Values Section */
+.values-section {
+  background-color: #f9f7f4;
+  padding: 4rem 2rem;
+}
+
+.values-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #4a4a4a;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.value-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid #d4a574;
+}
+
+.value-card h3 {
+  color: #4a4a4a;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.value-card p {
+  color: #888;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Team Section */
+.team-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.team-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #4a4a4a;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.team-member {
+  background: #f9f7f4;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #d4a574;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.member-avatar {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.team-member h3 {
+  color: #4a4a4a;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.role {
+  color: #d4a574;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.bio {
+  color: #888;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Achievements Section */
+.achievements-section {
+  background-color: #f9f7f4;
+  padding: 4rem 2rem;
+}
+
+.achievements-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #4a4a4a;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.achievement {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #d4a574;
+}
+
+.award-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.achievement h3 {
+  color: #4a4a4a;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.achievement p {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+/* Contact Section */
+.contact-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: #4a4a4a;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.contact-box {
+  background: linear-gradient(135deg, #f0e5d8 0%, #e8d5c4 100%);
+  padding: 3rem;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-box h3 {
+  color: #4a4a4a;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-box h3:first-child {
+  margin-top: 0;
+}
+
+.contact-box p {
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .a-propos .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .story-section {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  .story-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .story-image {
+    font-size: 5rem;
+    padding: 2rem;
+  }
+
+  .values-section h2,
+  .team-section h2,
+  .achievements-section h2,
+  .contact-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .values-grid,
+  .team-grid,
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-box {
+    padding: 2rem;
+  }
+}

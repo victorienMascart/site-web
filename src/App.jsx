@@ -1,26 +1,28 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Navigation from './components/Navigation'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import Boulangerie from './pages/Boulangerie'
+import Snacking from './pages/Snacking'
+import Contact from './pages/Contact'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <h1>Bienvenue sur Site Web</h1>
+    <Router>
+      <div className="app-container">
+        <Navigation />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/boulangerie" element={<Boulangerie />} />
+            <Route path="/snacking" element={<Snacking />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
       </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Compteur: {count}
-        </button>
-        <p>
-          Modifiez <code>src/App.jsx</code> et enregistrez pour tester le rechargement à chaud.
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Cliquez sur les logos pour en savoir plus
-      </p>
-    </>
+    </Router>
   )
 }
 
