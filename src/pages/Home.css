@@ -43,6 +43,17 @@
   padding: 2rem;
 }
 
+.hero-image {
+  display: block;
+  width: min(52vw, 280px);
+  height: auto;
+  margin: 0 auto 1rem;
+  object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  filter: contrast(1.08);
+}
+
 .hero h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
@@ -266,6 +277,11 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .hero-image {
+    width: min(62vw, 210px);
+    margin-bottom: 0.85rem;
+  }
+
   .hero h1 {
     font-size: 2.2rem;
   }

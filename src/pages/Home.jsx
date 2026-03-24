@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import './Home.css'
+import logoNoBrown from '../assets/logo-no-brown.png'
 
 function Home() {
   const navigate = useNavigate()
@@ -9,8 +10,8 @@ function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1>Bienvenue à Maison Ribiera</h1>
-          <p>Boulangerie Pâtisserie - Produits artisanaux préparés avec passion en Quarouble</p>
+          <img src={logoNoBrown} alt="Maison Ribiera Logo" className="hero-image" />
+          <p>Boulangerie Pâtisserie - Produits artisanaux préparés avec passion a Quarouble</p>
           <button className="cta-button" onClick={() => navigate('/boulangerie')}>
             Découvrir nos produits
           </button>
